@@ -93,6 +93,8 @@
    - [Speaker-Related Application](#speaker-related-application)
    - [Speech Recognition & Transcription](#speech-recognition--transcription)
    - [Speech Emotion, Paralinguistic, Health & Cognitive Applications](#speech-emotion-paralinguistic-health--cognitive-applications)
+   - [Text-To-Speech](#text-to-speech)
+   - [Spoofing & Security](#spoofing--security)
    - [Others](#others-2)
 
 5. [Graph Embedding](#5-graph-embedding)
@@ -921,6 +923,22 @@
 
 - "Ordered and Binary Speaker Embedding" [2023-06] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-1565)]
 
+- "Contrastive Speaker Embedding With Sequential Disentanglement" [2023-09] [ICASSP 2024] [[paper](http://arxiv.org/abs/2309.13253)]
+
+- "Multi-View Speaker Embedding Learning for Enhanced Stability and Discriminability" [2024-05] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10448494)]
+
+- "SVSNet+: Enhancing Speaker Voice Similarity Assessment Models with Representations from Speech Foundation Models" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.08445)]
+
+- "Residual Speaker Representation for One-Shot Voice Conversion" [2024-09] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2309.08166)]
+
+- "Guided Speaker Embedding" [2024-10] [ICASSP 2025] [[paper](http://arxiv.org/abs/2410.12182)]
+
+- "SEED: Speaker Embedding Enhancement Diffusion Model" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.16798)]
+
+- "Codec-ASV: Exploring Neural Audio Codec For Speaker Representation Learning" [2025-07] [ICASSP 2025] [[paper](https://doi.org/10.1109/ICASSP49660.2025.10888177)]
+
+- "Diarization-Guided Multi-Speaker Embeddings" [2025-09] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-1807)]
+
 #### General Speech Representation
 
 - "Robust Data2VEC: Noise-Robust Speech Representation Learning for ASR by Combining Regression and Improved Contrastive Learning" [2022-10] [ICASSP 2023] [[paper](http://arxiv.org/abs/2210.15324)]
@@ -937,6 +955,46 @@
 
 - "Self-Supervised Acoustic Word Embedding Learning via Correspondence Transformer Encoder" [2023-07] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2307.09871)]
 
+- "CoBERT: Self-Supervised Speech Representation Learning Through Code Representation Learning" [2023-08] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2210.04062)]
+
+- "RepCodec: A Speech Representation Codec for Speech Tokenization" [2023-08] [ACL 2024] [[paper](http://arxiv.org/abs/2309.00169)]
+
+- "Unsupervised Learning of Discrete Latent Representations with Data-Adaptive Dimensionality from Continuous Speech Streams" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-1321)]
+
+- "Self-supervised Neural Factor Analysis for Disentangling Utterance-level Speech Representations" [2023-08] [ICML 2023] [[paper](https://proceedings.mlr.press/v202/lin23e.html)]
+
+- "EnCodecMAE: leveraging neural codecs for universal audio representation learning" [2023-09] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2309.07391)]
+
+- "Audio Barlow Twins: Self-Supervised Audio Representation Learning" [2023-09] [ICASSP 2023] [[paper](https://doi.org/10.1109/ICASSP49357.2023.10095041)]
+
+- "R-Spin: Efficient Speaker and Noise-invariant Representation Learning with Acoustic Pieces" [2023-11] [NAACL 2024] [[paper](http://arxiv.org/abs/2311.09117)]
+
+- "Spoken Word2Vec: Learning Skipgram Embeddings from Speech" [2023-11] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2311.09319)]
+
+- "Enc-Dec RNN Acoustic Word Embeddings learned via Pairwise Prediction" [2023-11] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-483)]
+
+- "Language-Codec: Bridging Discrete Codec Representations and Speech Language Models" [2024-02] [ACL 2025] [[paper](http://arxiv.org/abs/2402.12208)]
+
+- "Audio Mamba: Selective State Spaces for Self-Supervised Audio Representations" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.02178)]
+
+- "MS-HuBERT: Mitigating Pre-training and Inference Mismatch in Masked Language Modelling methods for learning Speech Representations" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.05661)]
+
+- "MMM: Multi-Layer Multi-Residual Multi-Stream Discrete Speech Representation from Self-supervised Learning Model" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.09869)]
+
+- "AxLSTMs: learning self-supervised audio representations with xLSTMs" [2024-08] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2408.16568)]
+
+- "Compositional Audio Representation Learning" [2024-09] [ICASSP 2025] [[paper](http://arxiv.org/abs/2409.09619)]
+
+- "Sylber: Syllabic Embedding Representation of Speech from Raw Audio" [2024-10] [ICLR 2025] [[paper](http://arxiv.org/abs/2410.07168)]
+
+- "UniWav: Towards Unified Pre-training for Speech Representation Learning and Generation" [2025-03] [ICLR 2025] [[paper](http://arxiv.org/abs/2503.00733)]
+
+- "LiSTEN: Learning Soft Token Embeddings for Neural Audio LLMs" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.18517)]
+
+- "Spectrotemporal Modulation: Efficient and Interpretable Feature Representation for Classifying Speech, Music, and Environmental Sounds" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.23509)]
+
+- "Representing Speech Through Autoregressive Prediction of Cochlear Tokens" [2025-08] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2508.11598)]
+
 #### Speech Content, Phoneme & Articulatory Representation
 
 - "Learning to Compute the Articulatory Representations of Speech with the MIRRORNET" [2022-10] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2210.16454)]
@@ -949,6 +1007,20 @@
 
 - "Deep Speech Synthesis from MRI-Based Articulatory Representations" [2023-07] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2307.02471)]
 
+- "Discovering Phonetic Feature Event Patterns in Transformer Embeddings" [2023-10] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-1985)]
+
+- "Are Articulatory Feature Overlaps Shrouded in Speech Embeddings?" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-1039)]
+
+- "SingOMD: Singing Oriented Multi-resolution Discrete Representation Construction from Speech Models" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.08905)]
+
+- "Neurodyne: Neural Pitch Manipulation with Representation Learning and Cycle-Consistency GAN" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.15368)]
+
+- "Binary Representation Learning for Discriminative Acoustic Unit Discovery" [2025-07] [ICASSP 2025] [[paper](https://doi.org/10.1109/ICASSP49660.2025.10889906)]
+
+- "Learning Optimal Prosody Embedding Codebook based on F0 and Energy" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-1020)]
+
+- "ASDA: Audio Spectrogram Differential Attention Mechanism for Self-Supervised Representation Learning" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.48550/arXiv.2507.02666)]
+
 #### Emotion, Paralinguistic & Prosody Embedding
 
 - "Self-FiLM: Conditioning GANs with self-supervised representations for bandwidth extension based speaker recognition" [2023-01] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-2031)]
@@ -959,6 +1031,26 @@
 
 - "Improved Contextualized Speech Representations for Tonal Analysis" [2023-06] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-283)]
 
+- "Speech Synthesis with Self-Supervisedly Learnt Prosodic Representations" [2023-08] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2307.05132)]
+
+- "Revealing Emotional Clusters in Speaker Embeddings: A Contrastive Learning Strategy for Speech Emotion Recognition" [2024-01] [ICASSP 2024] [[paper](http://arxiv.org/abs/2401.11017)]
+
+- "Speech-Driven Emotional 3d Talking Face Animation Using Emotional Embeddings" [2024-01] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10446842)]
+
+- "Adaptive Speech Emotion Representation Learning Based On Dynamic Graph" [2024-05] [ICASSP 2024] [[paper](http://arxiv.org/abs/2405.03956)]
+
+- "emotion2vec: Self-Supervised Pre-Training for Speech Emotion Representation" [2024-06] [ACL 2024 Findings] [[paper](https://doi.org/10.18653/v1/2024.findings-acl.931)]
+
+- "Emotion-Aware Speech Self-Supervised Representation Learning with Intensity Knowledge" [2024-09] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-2518)]
+
+- "EmoSphere-SER: Enhancing Speech Emotion Recognition Through Spherical Representation with Auxiliary Classification" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.19693)]
+
+- "HYFuse: Aligning Heterogeneous Speech Pre-Trained Representations in Hyperbolic Space for Speech Emotion Recognition" [2025-06] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2506.03403)]
+
+- "MATER: Multi-level Acoustic and Textual Emotion Representation for Interpretable Speech Emotion Recognition" [2025-06] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2506.19887)]
+
+- "SupraDoRAL: Automatic Word Prominence Detection Using Suprasegmental Dependencies of Representations with Acoustic and Linguistic Context" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-2519)]
+
 #### Multilingual Embedding
 
 - "DistilXLSR: A Light Weight Cross-Lingual Speech Representation Model" [2023-06] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2306.01303)]
@@ -968,6 +1060,12 @@
 - "Conformer-based Language Embedding with Self-Knowledge Distillation for Spoken Language Identification" [2023-06] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-1557)]
 
 - "Language-Universal Phonetic Representation in Multilingual Speech Pretraining for Low-Resource Speech Recognition" [2023-06] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-617)]
+
+- "MUST&P-SRL: Multi-lingual and Unified Syllabification in Text and Phonetic Domains for Speech Representation Learning" [2023-10] [EMNLP 2023 Industry] [[paper](http://arxiv.org/abs/2310.11541)]
+
+- "Wave to Interlingua: Analyzing Representations of Multilingual Speech Transformers for Spoken Language Translation" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-2109)]
+
+- "AfriHuBERT: A self-supervised speech representation model for African languages" [2024-09] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2409.20201)]
 
 #### Multimodal
 
@@ -983,6 +1081,24 @@
 
 - "MIR-GAN: Refining Frame-Level Modality-Invariant Representations with Adversarial Network for Audio-Visual Speech Recognition" [2023-06] [ACL 2023] [[paper](http://arxiv.org/abs/2306.10567)]
 
+- "Fusion of Audio and Visual Embeddings for Sound Event Localization and Detection" [2023-12] [ICASSP 2024] [[paper](http://arxiv.org/abs/2312.09034)]
+
+- "EnCLAP: Combining Neural Audio Codec and Audio-Text Joint Embedding for Automated Audio Captioning" [2024-01] [ICASSP 2024] [[paper](http://arxiv.org/abs/2401.17690)]
+
+- "Invariant Motion Representation Learning for 3D Talking Face Synthesis" [2024-01] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10446379)]
+
+- "M2D-CLAP: Masked Modeling Duo Meets CLAP for Learning General-purpose Audio-Language Representation" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.02032)]
+
+- "Audio-text Retrieval with Transformer-based Hierarchical Alignment and Disentangled Cross-modal Representation" [2024-09] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2409.09256)]
+
+- "Learning Spatially-Aware Language and Audio Embeddings" [2024-09] [NeurIPS 2024] [[paper](http://arxiv.org/abs/2409.11369)]
+
+- "XLAVS-R: Cross-Lingual Audio-Visual Speech Representation Learning for Noise-Robust Speech Perception" [2024-10] [ACL 2024] [[paper](https://doi.org/10.18653/v1/2024.acl-long.697)]
+
+- "Vela: Scalable Embeddings with Voice Large Language Models for Multimodal Retrieval" [2025-06] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2506.14445)]
+
+- "SKE-MSA: Enhancing Representation Learning with VAD Lexicon for Multimodal Sentiment Analysis" [2025-08] [ICASSP 2025] [[paper](https://doi.org/10.1109/ICASSP49660.2025.10890333)]
+
 ### 4.2 Training Methods
 
 #### Disentanglement & Decoupling
@@ -996,6 +1112,20 @@
 - "Self-supervised Fine-tuning for Improved Content Representations by Speaker-invariant Clustering" [2023-05] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2305.11072)]
 
 - "Disentangled Representation Learning for Multilingual Speaker Recognition" [2023-06] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-1603)]
+
+- "MT-SLVR: Multi-Task Self-Supervised Learning for Transformation In(Variant) Representations" [2023-07] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-1064)]
+
+- "Generalizable Zero-Shot Speaker Adaptive Speech Synthesis with Disentangled Representations" [2023-08] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2308.13007)]
+
+- "Disentangled Representation Learning for Environment-agnostic Speaker Recognition" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-1124)]
+
+- "Disentangling prosody and timbre embeddings via voice conversion" [2024-09] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-207)]
+
+- "Universal Semantic Disentangled Privacy-preserving Speech Representation Learning" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.13085)]
+
+- "DiEmo-TTS: Disentangled Emotion Representations via Self-Supervised Distillation for Cross-Speaker Emotion Transfer in Text-to-Speech" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.19687)]
+
+- "HASRD: Hierarchical Acoustic and Semantic Representation Disentanglement" [2025-06] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2506.00843)]
 
 #### Contrastive, Generative & Multi-Objective Learning
 
@@ -1013,6 +1143,26 @@
 
 - "ReCLR: Reference-Enhanced Contrastive Learning of Audio Representation for Depression Detection" [2023-06] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-2474)]
 
+- "On The Effect Of Data-Augmentation On Local Embedding Properties In The Contrastive Learning Of Music Audio Representations" [2024-01] [ICASSP 2024] [[paper](http://arxiv.org/abs/2401.08889)]
+
+- "Embedding Learning for Preference-based Speech Quality Assessment" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-1243)]
+
+- "Articulatory synthesis using representations learnt through phonetic label-aware contrastive loss" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-1756)]
+
+- "Refining Self-supervised Learnt Speech Representation using Brain Activations" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.08266)]
+
+- "LASER: Learning by Aligning Self-supervised Representations of Speech for Improving Content-related Tasks" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.09153)]
+
+- "Towards Robust Few-shot Class Incremental Learning in Audio Classification using Contrastive Representation" [2024-07] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2407.19265)]
+
+- "Neural Compression Augmentation for Contrastive Audio Representation Learning" [2024-09] [InterSpeech 2024] [[paper](https://doi.org/10.21437/interspeech.2024-1156)]
+
+- "REWIND: Speech Time Reversal for Enhancing Speaker Representations in Diffusion-based Voice Conversion" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.20756)]
+
+- "InfoMin-based Query Embedding Optimization For Query-based Universal Sound Separation" [2025-07] [ICASSP 2025] [[paper](https://doi.org/10.1109/ICASSP49660.2025.10887870)]
+
+- "Enhancing Target-speaker Automatic Speech Recognition Using Multiple Speaker Embedding Extractors with Virtual Speaker Embedding" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-2486)]
+
 #### Distillation, Pruning & Efficiency-Oriented Training
 
 - "Application of Knowledge Distillation to Multi-Task Speech Representation Learning" [2022-10] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2210.16611)]
@@ -1027,6 +1177,18 @@
 
 - "On-Device Constrained Self-Supervised Speech Representation Learning for Keyword Spotting via Knowledge Distillation" [2023-07] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2307.02720)]
 
+- "Knowledge Distillation from Self-Supervised Representation Learning Model with Discrete Speech Units for Any-to-Any Streaming Voice Conversion" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-924)]
+
+- "DAISY: Data Adaptive Self-Supervised Early Exit for Speech Representation Models" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.05464)]
+
+- "PRVAE-VC2: Non-Parallel Voice Conversion by Distillation of Speech Representations" [2024-09] [InterSpeech 2024] [[paper](http://arxiv.org/abs/1904.04631)]
+
+- "EH-MAM: Easy-to-Hard Masked Acoustic Modeling for Self-Supervised Speech Representation Learning" [2024-10] [EMNLP 2024] [[paper](http://arxiv.org/abs/2410.13179)]
+
+- "DuRep: Dual-Mode Speech Representation Learning via ASR-Aware Distillation" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.19774)]
+
+- "Metric Learning with Progressive Self-Distillation for Audio-Visual Embedding Learning" [2025-07] [ICASSP 2025] [[paper](https://doi.org/10.1109/ICASSP49660.2025.10888698)]
+
 #### Multilingual Training
 
 - "Leveraging Language Embeddings for Cross-lingual Self-supervised Speech Representation Learning" [2023-01] [ICASSP 2023] [[paper](https://doi.org/10.1109/ICASSP49357.2023.10096681)]
@@ -1034,6 +1196,10 @@
 - "Acoustic Word Embeddings for Untranscribed Target Languages with Continued Pretraining and Learned Pooling" [2023-06] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2306.02153)]
 
 - "Embedding Articulatory Constraints for Low-resource Speech Recognition Based on Large Pre-trained Model" [2023-06] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-1437)]
+
+- "Towards Robust Speech Representation Learning for Thousands of Languages" [2024-06] [EMNLP 2024] [[paper](http://arxiv.org/abs/2407.00837)]
+
+- "Introducing Multilingual Phonetic Information to Speaker Embedding for Speaker Verification" [2024-09] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10446546)]
 
 #### Privacy-Preserving Representation Learning
 
@@ -1043,6 +1209,14 @@
 
 - "On-Device Speaker Anonymization of Acoustic Embeddings for ASR based on Flexible Location Gradient Reversal Layer" [2023-07] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2307.13343)]
 
+- "Asynchronous Voice Anonymization Using Adversarial Perturbation On Speaker Embedding" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.08200)]
+
+- "Eta-WavLM: Efficient Speaker Identity Removal in Self-Supervised Speech Representations Using a Simple Linear Equation" [2025-05] [ACL 2025 Findings] [[paper](http://arxiv.org/abs/2505.19273)]
+
+- "WavShape: Information-Theoretic Speech Representation Learning for Fair and Privacy-Aware Audio Processing" [2025-06] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2506.22789)]
+
+- "Privacy-Preserving Speaker Verification via End-to-End Secure Representation Learning" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-1096)]
+
 #### Robustness-Oriented Training
 
 - "Learning Emotional Representations from Imbalanced Speech Data for Speech Emotion Recognition and Emotional Text-to-Speech" [2023-06] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2306.05709)]
@@ -1050,6 +1224,28 @@
 - "Downstream Task Agnostic Speech Enhancement with Self-Supervised Representation Loss" [2023-06] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-1578)]
 
 - "Don’t Stop Self-Supervision: Accent Adaptation of Speech Representations via Residual Adapters" [2023-07] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2307.00453)]
+
+- "Rethinking Session Variability: Leveraging Session Embeddings for Session Robustness in Speaker Verification" [2023-09] [ICASSP 2024] [[paper](http://arxiv.org/abs/2309.14741)]
+
+- "Learning Repeatable Speech Embeddings Using An Intra-class Correlation Regularizer" [2023-10] [NeurIPS 2023] [[paper](http://arxiv.org/abs/2310.17049)]
+
+- "CA-SSLR: Condition-Aware Self-Supervised Learning Representation for Generalized Speech Processing" [2024-02] [NeurIPS 2024] [[paper](http://papers.nips.cc/paper_files/paper/2024/hash/59a9cc95f046e9125d8816ef971873e7-Abstract-Conference.html)]
+
+- "Real-time scheme for rapid extraction of speaker embeddings in challenging recording conditions" [2024-05] [InterSpeech 2024] [[paper](https://www.isca-archive.org/interspeech_2024/liu24s_interspeech.html)]
+
+- "Tackling Missing Modalities in Audio-Visual Representation Learning Using Masked Autoencoders" [2024-09] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2505.14562)]
+
+- "Balanced-Wav2Vec: Enhancing Stability and Robustness of Representation Learning Through Sample Reweighting Techniques" [2024-09] [InterSpeech 2024] [[paper](https://doi.org/10.21437/interspeech.2024-1875)]
+
+- "Multi-Task Corrupted Prediction for Learning Robust Audio-Visual Speech Representation" [2025-01] [ICLR 2025] [[paper](http://arxiv.org/abs/2504.18539)]
+
+- "Mitigating Non-Target Speaker Bias in Guided Speaker Embedding" [2025-06] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2506.12500)]
+
+- "Inter- and Intra-Sentence Cuer-Invariant Representation Learning for Generalizable Cued Speech Recognition" [2025-07] [ICASSP 2025] [[paper](https://doi.org/10.1109/ICASSP49660.2025.10888246)]
+
+- "Robust Target Speaker Diarization and Separation via Augmented Speaker Embedding Sampling" [2025-08] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2508.06393)]
+
+- "Adaptive Across-Subcenter Representation Learning for Imbalanced Anomalous Sound Detection" [2025-09] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-1584)]
 
 #### Other Methods
 
@@ -1069,6 +1265,34 @@
 
 - "Towards Paralinguistic-Only Speech Representations for End-to-End Speech Emotion Recognition" [2023-06] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-497)]
 
+- "Improving Joint Speech-Text Representations Without Alignment" [2023-08] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2308.06125)]
+
+- "LABERT: A Combination of Local Aggregation and Self-Supervised Speech Representation Learning for Detecting Informative Hidden Units in Low-Resource ASR Systems" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-2001)]
+
+- "Dual Acoustic Linguistic Self-supervised Representation Learning for Cross-Domain Speech Recognition" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-387)]
+
+- "Text-Only Domain Adaptation for End-to-End Speech Recognition through Down-Sampling Acoustic Representation" [2023-09] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2309.02459)]
+
+- "MixRep: Hidden Representation Mixup for Low-Resource Speech Recognition" [2023-10] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2310.18450)]
+
+- "Adapter-tuning with Effective Token-dependent Representation Shift for Automatic Speech Recognition" [2023-11] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-1221)]
+
+- "Consistent and Relevant: Rethink the Query Embedding in General Sound Separation" [2023-12] [ICASSP 2024] [[paper](http://arxiv.org/abs/2312.15463)]
+
+- "GR0: Self-Supervised Global Representation Learning for Zero-Shot Voice Conversion" [2024-03] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10448232)]
+
+- "ASTRA: Aligning Speech and Text Representations for Asr without Sampling" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-1924)]
+
+- "Challenging margin-based speaker embedding extractors by using the variational information bottleneck" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.12622)]
+
+- "Self-supervised learning of speech representations with Dutch archival data" [2025-07] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2507.04554)]
+
+- "R2S: Real-to-Synthetic Representation Learning for Training Speech Recognition Models on Synthetic Data" [2025-09] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-1109)]
+
+- "SiamCTC: Learning Speech Representations through Monotonic Temporal Alignment" [2025-09] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-2746)]
+
+- "Towards Classification of Typical and Atypical Disfluencies: A Self Supervised Representation Approach" [2025-09] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-964)]
+
 ### 4.3 Embedding Analysis
 
 #### Representation Properties
@@ -1085,6 +1309,34 @@
 
 - "Investigating wav2vec2 context representations and the effects of fine-tuning, a case-study of a Finnish model" [2023-03] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-837)]
 
+- "On the (In)Efficiency of Acoustic Feature Extractors for Self-Supervised Speech Representation Learning" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-1510)]
+
+- "On The Choice of the Optimal Temporal Support for Audio Classification with Pre-Trained Embeddings" [2023-12] [ICASSP 2024] [[paper](http://arxiv.org/abs/2312.14005)]
+
+- "A Closer Look at Wav2vec2 Embeddings for On-Device Single-Channel Speech Enhancement" [2024-03] [ICASSP 2024] [[paper](http://arxiv.org/abs/2403.01369)]
+
+- "Following the Embedding: Identifying Transition Phenomena in Wav2vec 2.0 Representations of Speech Audio" [2024-03] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10446494)]
+
+- "Searching for Structure: Appraising the Organisation of Speech Features in wav2vec 2.0 Embeddings" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-2047)]
+
+- "Wav2vec 2.0 Embeddings Are No Swiss Army Knife -- A Case Study for Multiple Sclerosis" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-995)]
+
+- "Self-Supervised Speech Representations are More Phonetic than Semantic" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.08619)]
+
+- "On the Encoding of Gender in Transformer-based ASR Representations" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.09855)]
+
+- "Orthogonality and isotropy of speaker and phonetic information in self-supervised speech representations" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.09200)]
+
+- "Investigating the Sensitivity of Pre-trained Audio Embeddings to Common Effects" [2025-01] [ICASSP 2025] [[paper](http://arxiv.org/abs/2501.15900)]
+
+- "Evaluating the Effectiveness of Pre-Trained Audio Embeddings for Classification of Parkinson's Disease Speech Data" [2025-06] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2506.02078)]
+
+- "Acoustic Representation and Realization of Weak Elements Subcategories: In the Case of Tianjin Mandarin" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-1835)]
+
+- "A Study of Speech Embedding Similarities Between Australian Aboriginal and High-Resource Languages" [2025-09] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2509.01419)]
+
+- "Evaluating Deep Speaker Embedding Robustness to Domain, Sampling Rate, and Codec Variations" [2025-09] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-2167)]
+
 #### Speaker Characteristics
 
 - "Quantitative Evidence on Overlooked Aspects of Enrollment Speaker Embeddings for Target Speaker Separation" [2022-10] [ICASSP 2023] [[paper](http://arxiv.org/abs/2210.12635)]
@@ -1095,6 +1347,18 @@
 
 - "Behavioral Analysis of Pathological Speaker Embeddings of Patients During Oncological Treatment of Oral Cancer" [2023-07] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2307.04744)]
 
+- "Controllable Generation of Artificial Speaker Embeddings through Discovery of Principal Directions" [2023-10] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2310.17502)]
+
+- "Geodesic Interpolation of Frame-Wise Speaker Embeddings for the Diarization of Meeting Scenarios" [2024-01] [ICASSP 2024] [[paper](http://arxiv.org/abs/2401.03963)]
+
+- "A Study on Graph Embedding for Speaker Recognition" [2024-03] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10448308)]
+
+- "Spoofed Speech Detection with a Focus on Speaker Embedding" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-481)]
+
+- "The reasonable effectiveness of speaker embeddings for violence detection" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.06798)]
+
+- "Gradual modeling of the Lombard effect by modifying speaker embeddings from a Text-To-Speech model" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-787)]
+
 #### Benchmarking & Evaluating Extractors
 
 - "In search of strong embedding extractors for speaker diarisation" [2022-10] [ICASSP 2023] [[paper](http://arxiv.org/abs/2210.14682)]
@@ -1103,9 +1367,27 @@
 
 - "Speech Self-Supervised Representation Benchmarking: Are We Doing it Right?" [2023-06] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-1087)]
 
+- "On the Usefulness of Speaker Embeddings for Speaker Retrieval in the Wild: A Comparative Study of x-vector and ECAPA-TDNN Models" [2024-07] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-161)]
+
+- "Gender Representation in TV and Radio: Automatic Information Extraction methods versus Manual Analyses" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.10316)]
+
+- "Rethinking Leveraging Pre-Trained Multi-Layer Representations for Speaker Verification" [2025-09] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-628)]
+
 #### Interpretability
 
 - "Learning Interpretable Low-dimensional Representation via Physical Symmetry" [2023-02] [NeurIPS 2023] [[paper](http://arxiv.org/abs/2302.10890)]
+
+- "Similar Hierarchical Representation of Speech and Other Complex Sounds In the Brain and Deep Residual Networks: An MEG Study" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-1347)]
+
+- "What do self-supervised speech representations encode? An analysis of languages, varieties, speaking styles and speakers" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-951)]
+
+- "What Do Language Models Hear? Probing for Auditory Representations in Language Models" [2024-02] [ACL 2024] [[paper](http://arxiv.org/abs/2402.16998)]
+
+- "From Sound to Meaning in the Auditory Cortex: A Neuronal Representation and Classification Analysis" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-2531)]
+
+- "XANE: eXplainable Acoustic Neural Embeddings" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.05199)]
+
+- "Form and Function in Prosodic Representation: In the Case of 'ma' in Tianjin Mandarin" [2024-09] [InterSpeech 2024] [[paper](https://doi.org/10.21437/interspeech.2024-1909)]
 
 #### Cross-Domain Generalization
 
@@ -1115,11 +1397,27 @@
 
 - "Towards hate speech detection in low-resource languages: Comparing ASR to acoustic word embeddings on Wolof and Swahili" [2023-06] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2306.00410)]
 
+- "Investigation of Layer-Wise Speech Representations in Self-Supervised Learning Models: A Cross-Lingual Study in Detecting Depression" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-1737)]
+
+- "Self-supervised Speech Representations Still Struggle with African American Vernacular English" [2024-08] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2408.14262)]
+
+- "Exploring Self-Supervised Speech Representations for Cross-lingual Acoustic-to-Articulatory Inversion" [2024-09] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2309.01108)]
+
+- "Gender and Language Identification in Multilingual Models of Speech: Exploring the Genericity and Robustness of Speech Representations" [2024-09] [InterSpeech 2024] [[paper](https://doi.org/10.21437/interspeech.2024-953)]
+
+- "Representation of Perceived Prosodic Similarity of Conversational Feedback" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.13268)]
+
+- "Recreating Neural Activity During Speech Production with Language and Speech Model Embeddings" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.14074)]
+
+- "Dirichlet process mixture model based on topologically augmented signal representation for clustering infant vocalizations" [2024-07] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2407.05760)]
+
 ### 4.4 Benchmarks & Toolkits
 
 - "Wespeaker: A Research and Production Oriented Speaker Embedding Learning Toolkit" [2022-10] [ICASSP 2023] [[paper](http://arxiv.org/abs/2210.17016)]
 
 - "MARBLE: Music Audio Representation Benchmark for Universal Evaluation" [2023-06] [NeurIPS 2023] [[paper](http://arxiv.org/abs/2306.10548)]
+
+- "ESPnet-SPK: full pipeline speaker embedding toolkit with reproducible recipes, self-supervised front-ends, and off-the-shelf models" [2024-01] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2401.17230)]
 
 ### 4.5 Embedding Applications
 
@@ -1135,6 +1433,34 @@
 
 - "Improving End-to-End Neural Diarization Using Conversational Summary Representations" [2023-06] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2306.13863)]
 
+- "SEF-Net: Speaker Embedding Free Target Speaker Extraction Network" [2023-07] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-1749)]
+
+- "Real-Time Personalised Speech Enhancement Transformers with Dynamic Cross-attended Speaker Representations" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-1066)]
+
+- "SEF-VC: Speaker Embedding Free Zero-Shot Voice Conversion with Cross Attention" [2023-12] [ICASSP 2024] [[paper](http://arxiv.org/abs/2312.08676)]
+
+- "Neural Speaker Diarization Using Memory-Aware Multi-Speaker Embedding with Sequence-to-Sequence Architecture" [2024-01] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10446661)]
+
+- "Speakers Unembedded: Embedding-free Approach to Long-form Neural Diarization" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-1174)]
+
+- "Efficient Speaker Embedding Extraction Using a Twofold Sliding Window Algorithm for Speaker Diarization" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-1874)]
+
+- "Fully Few-shot Class-incremental Audio Classification Using Expandable Dual-embedding Extractor" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.08122)]
+
+- "Personalized Speech Enhancement Without a Separate Speaker Embedding Model" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.09928)]
+
+- "Audio Fingerprinting with Holographic Reduced Representations" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.13139)]
+
+- "Specializing Self-Supervised Speech Representations for Speaker Segmentation" [2024-09] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2501.05310)]
+
+- "Leveraging Boolean Directivity Embedding for Binaural Target Speaker Extraction" [2025-07] [ICASSP 2025] [[paper](https://doi.org/10.1109/ICASSP49660.2025.10888158)]
+
+- "Spatio-Spectral Diarization of Meetings by Combining TDOA-based Segmentation and Speaker Embedding-based Clustering" [2025-07] [InterSpeech 2025] [[paper](https://doi.org/10.48550/arXiv.2506.16228)]
+
+- "A Siamese Network-Based Framework for Voice Mimicry Proficiency Assessment Using X-Vector Embeddings" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-1103)]
+
+- "Bridging Speech and Singing: Multi-stage Speech-Prompted Singing Voice Conversion with Speaker Embedding Adaptation" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-816)]
+
 #### Speech Recognition & Transcription
 
 - "Multi-Lingual Pronunciation Assessment with Unified Phoneme Set and Language-Specific Embeddings" [2023-01] [ICASSP 2023] [[paper](https://doi.org/10.1109/ICASSP49357.2023.10095673)]
@@ -1147,11 +1473,101 @@
 
 - "Text-only Domain Adaptation using Unified Speech-Text Representation in Transducer" [2023-06] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2306.04076)]
 
+- "TokenSplit: Using Discrete Speech Representations for Direct, Refined, and Transcript-Conditioned Speech Separation and Recognition" [2023-08] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2308.10415)]
+
+- "Dual Audio Encoders Based Mandarin Prosodic Boundary Prediction by Using Multi-Granularity Prosodic Representations" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-2242)]
+
+- "Transducers with Pronunciation-Aware Embeddings for Automatic Speech Recognition" [2024-01] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10447685)]
+
+- "CIF-RNNT: Streaming ASR Via Acoustic Word Embeddings with Continuous Integrate-and-Fire and RNN-Transducers" [2024-01] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10448492)]
+
+- "Codec-ASR: Training Performant Automatic Speech Recognition Systems with Discrete Speech Representations" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-330)]
+
+- "Dysarthric Speech Recognition Using Curriculum Learning and Articulatory Feature Embedding" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-444)]
+
+- "CTC-aligned Audio-Text Embedding for Streaming Open-vocabulary Keyword Spotting" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.07923)]
+
+- "Enhancing Multilingual ASR for Unseen Languages via Language Embedding Modeling" [2024-12] [ICASSP 2025] [[paper](http://arxiv.org/abs/2412.16474)]
+
 #### Speech Emotion, Paralinguistic, Health & Cognitive Applications
 
 - "Efficient Speech Quality Assessment Using Self-Supervised Framewise Embeddings" [2022-11] [ICASSP 2023] [[paper](http://arxiv.org/abs/2211.06646)]
 
 - "Understanding Spoken Language Development of Children with ASD Using Pre-trained Speech Embeddings" [2023-05] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2305.14117)]
+
+- "Robust Self Supervised Speech Embeddings for Child-Adult Classification in Interactions involving Children with Autism" [2023-07] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2307.16398)]
+
+- "Classification of Vocal Intensity Category from Speech using the Wav2vec2 and Whisper Embeddings" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-2038)]
+
+- "AsthmaSCELNet: A Lightweight Supervised Contrastive Embedding Learning Framework for Asthma Classification Using Lung Sounds" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-428)]
+
+- "A Compressed Synthetic Speech Detection Method with Compression Feature Embedding" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-1696)]
+
+- "Classifying depression symptom severity: Assessment of speech representations in personalized and generalized machine learning models." [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-1721)]
+
+- "Automated Multiple Sclerosis Screening Based on Encoded Speech Representations" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-234)]
+
+- "Obstructive Sleep Apnea Detection using Pre-trained Speech Representations" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-278)]
+
+- "Enhancing Child Vocalization Classification with Phonetically-Tuned Embeddings for Assisting Autism Diagnosis" [2023-09] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2309.07287)]
+
+- "Fusing Multi-Level Features from Audio and Contextual Sentence Embedding from Text for Interview-Based Depression Detection" [2024-01] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10446253)]
+
+- "Are Paralinguistic Representations all that is needed for Speech Emotion Recognition?" [2024-02] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2402.01579)]
+
+- "Whister: Using Whisper’s representations for Stuttering detection" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-2293)]
+
+- "Automatic Assessment of Speech Production Skills for Children with Cochlear Implants Using Wav2Vec2.0 Acoustic Embeddings" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-234)]
+
+- "Automatic Classification of News Subjects in Broadcast News: Application to a Gender Bias Representation Analysis" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-1854)]
+
+- "Self-Supervised Embeddings for Detecting Individual Symptoms of Depression" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.17229)]
+
+- "Developing vocal system impaired patient-aimed voice quality assessment approach using ASR representation-included multiple features" [2024-08] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2408.12279)]
+
+- "Leveraging Universal Speech Representations for Detecting and Assessing the Severity of Mild Cognitive Impairment Across Languages" [2024-09] [InterSpeech 2024] [[paper](https://doi.org/10.21437/interspeech.2024-2030)]
+
+- "Multimodal Fusion of Music Theory-Inspired and Self-Supervised Representations for Improved Emotion Recognition" [2024-09] [InterSpeech 2024] [[paper](https://doi.org/10.21437/interspeech.2024-2350)]
+
+- "Multimodal Emotion Diarization: Frame-Wise Integration of Text and Audio Representations" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-2009)]
+
+- "Advancing Emotion Recognition via Ensemble Learning: Integrating Speech, Context, and Text Representations" [2025-09] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-1445)]
+
+- "Interactive Fusion of Multi-View Speech Embeddings via Pretrained Large-Scale Speech Models for Speech Emotional Attribute Prediction in Naturalistic Conditions" [2025-09] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-1662)]
+
+- "Voice-Based Dysphagia Detection: Leveraging Self-Supervised Speech Representation" [2025-09] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-761)]
+
+#### Text-To-Speech
+
+- "Exploiting Emotion Information in Speaker Embeddings for Expressive Text-to-Speech" [2023-08] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2010.03909)]
+
+- "SALTTS: Leveraging Self-Supervised Speech Representations for improved Text-to-Speech Synthesis" [2023-08] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2308.01018)]
+
+- "Accent Conversion with Articulatory Representations" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.05947)]
+
+- "Enhancing Multilingual TTS with Voice Conversion Based Data Augmentation and Posterior Embedding" [2024-07] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10448471)]
+
+#### Spoofing & Security
+
+- "Learning A Self-Supervised Domain-Invariant Feature Representation for Generalized Audio Deepfake Detection" [2023-08] [InterSpeech 2023] [[paper](https://doi.org/10.21437/interspeech.2023-1383)]
+
+- "An Efficient Temporary Deepfake Location Approach Based Embeddings for Partially Spoofed Audio Detection" [2023-09] [ICASSP 2024] [[paper](http://arxiv.org/abs/2309.03036)]
+
+- "Interpretable Temporal Class Activation Representation for Audio Spoofing Detection" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.08825)]
+
+- "Attentive Merging of Hidden Embeddings from Pre-trained Speech Model for Anti-spoofing Detection" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.10283)]
+
+- "Towards generalisable and calibrated audio deepfake detection with self-supervised representations" [2024-09] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2309.05384)]
+
+- "An Explainable Probabilistic Attribute Embedding Approach for Spoofed Speech Characterization" [2024-09] [ICASSP 2025] [[paper](http://arxiv.org/abs/2409.11027)]
+
+- "Exploring Self-supervised Embeddings and Synthetic Data Augmentation for Robust Audio Deepfake Detection" [2024-09] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-942)]
+
+- "SpeechForensics: Audio-Visual Speech Representation Learning for Face Forgery Detection" [2025-08] [NeurIPS 2024] [[paper](http://arxiv.org/abs/2508.09913)]
+
+- "Generalizable Audio Spoofing Detection using Non-Semantic Representations" [2025-08] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2509.00186)]
+
+- "Enhancing Audio Deepfake Detection by Improving Representation Similarity of Bonafide Speech" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-422)]
 
 #### Others
 
@@ -1160,6 +1576,62 @@
 - "Fully Unsupervised Topic Clustering of Unlabelled Spoken Audio Using Self-Supervised Representation Learning and Topic Model" [2023-03] [ICASSP 2023] [[paper](https://doi.org/10.1109/ICASSP49357.2023.10095280)]
 
 - "Understanding Disrupted Sentences Using Underspecified Abstract Meaning Representation" [2023-06] [InterSpeech 2023] [[paper](https://doi.org/10.21437/Interspeech.2023-307)]
+
+- "End to End Spoken Language Diarization with Wav2vec Embeddings" [2023-08] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2306.12913)]
+
+- "Flexible Keyword Spotting Based on Homogeneous Audio-Text Embedding" [2023-08] [ICASSP 2024] [[paper](http://arxiv.org/abs/2308.06472)]
+
+- "Joint Prediction of Audio Event and Annoyance Rating in an Urban Soundscape by Hierarchical Graph Representation Learning" [2023-08] [InterSpeech 2023] [[paper](http://arxiv.org/abs/2308.11980)]
+
+- "Enhanced Embeddings in Zero-Shot Learning for Environmental Audio" [2023-08] [ICASSP 2023] [[paper](https://doi.org/10.1109/ICASSP49357.2023.10096134)]
+
+- "Improving Audio Captioning Models with Fine-Grained Audio Features, Text Embedding Supervision, and LLM Mix-Up Augmentation" [2023-09] [ICASSP 2024] [[paper](http://arxiv.org/abs/2309.17352)]
+
+- "A Deep Representation Learning-Based Speech Enhancement Method Using Complex Convolution Recurrent Variational Autoencoder" [2023-12] [ICASSP 2024] [[paper](http://arxiv.org/abs/2312.09620)]
+
+- "Similar but Faster: Manipulation of Tempo in Music Audio Embeddings for Tempo Prediction and Search" [2024-01] [ICASSP 2024] [[paper](http://arxiv.org/abs/2401.08902)]
+
+- "Improving Oral Reading Fluency Assessment Through Sub-Sequence Matching of Acoustic Word Embeddings" [2024-01] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10447029)]
+
+- "Ainur: Harmonizing Speed and Quality in Deep Music Generation Through Lyrics-Audio Embeddings" [2024-01] [ICASSP 2024] [[paper](https://doi.org/10.1109/ICASSP48485.2024.10448078)]
+
+- "Sound of Vision: Audio Generation from Visual Text Embedding through Training Domain Discriminator" [2024-05] [InterSpeech 2024] [[paper](https://doi.org/10.21437/Interspeech.2024-1451)]
+
+- "CALL system using pitch-accent feature representations reflecting listeners’ subjective adequacy" [2024-05] [InterSpeech 2024] [[paper](https://www.isca-archive.org/interspeech_2024/masudakatsuse24_interspeech.html)]
+
+- "RevRIR: Joint Reverberant Speech and Room Impulse Response Embedding using Contrastive Learning with Application to Room Shape Classification" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.03120)]
+
+- "Joint Learning of Context and Feedback Embeddings in Spoken Dialogue" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.07291)]
+
+- "Multimodal Representation Loss Between Timed Text and Audio for Regularized Speech Separation" [2024-06] [InterSpeech 2024] [[paper](http://arxiv.org/abs/2406.08328)]
+
+- "Text2FX: Harnessing CLAP Embeddings for Text-Guided Audio Effects" [2024-09] [ICASSP 2025] [[paper](http://arxiv.org/abs/2409.18847)]
+
+- "Zero-shot Musical Stem Retrieval with Joint-Embedding Predictive Architectures" [2024-11] [ICASSP 2025] [[paper](http://arxiv.org/abs/2411.19806)]
+
+- "Music2Latent2: Audio Compression with Summary Embeddings and Autoregressive Decoding" [2025-01] [ICASSP 2025] [[paper](http://arxiv.org/abs/2501.17578)]
+
+- "Learning Musical Representations for Music Performance Question Answering" [2025-02] [EMNLP 2024 Findings] [[paper](http://arxiv.org/abs/2502.06710)]
+
+- "Discrete Audio Representations for Automated Audio Captioning" [2025-05] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2505.14989)]
+
+- "CLAP-ART: Automated Audio Captioning with Semantic-rich Audio Representation Tokenizer" [2025-06] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2506.00800)]
+
+- "Efficient Speech Enhancement via Embeddings from Pre-trained Generative Audioencoders" [2025-06] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2506.11514)]
+
+- "Fully Few-shot Class-incremental Audio Classification Using Multi-level Embedding Extractor and Ridge Regression Classifier" [2025-06] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2506.18406)]
+
+- "Listen through the Sound: Generative Speech Restoration Leveraging Acoustic Context Representation" [2025-08] [InterSpeech 2025] [[paper](http://arxiv.org/abs/2508.08953)]
+
+- "Dog2vec: Self-Supervised Pre-Training for Canine Vocal Representation" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-1287)]
+
+- "Simple and Effective Content Encoder for Singing Voice Conversion via SSL-Embedding Dimension Reduction" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-1531)]
+
+- "GoP2Vec: A few shot learning for pronunciation assessment with goodness of pronunciation (GoP) based representations from an i-vector framework and augmentation" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-2359)]
+
+- "FUSE-MOS: Fusion of Speech Embeddings for MOS Prediction with Uncertainty Quantification" [2025-08] [InterSpeech 2025] [[paper](https://doi.org/10.21437/interspeech.2025-2532)]
+
+- "Causal Speech Enhancement Based on a Two-Branch Nested U-Net Architecture Using Self-Supervised Speech Embeddings" [2025-08] [ICASSP 2025] [[paper](https://doi.org/10.1109/ICASSP49660.2025.10888248)]
 
 ## 5. Graph Embedding
 
