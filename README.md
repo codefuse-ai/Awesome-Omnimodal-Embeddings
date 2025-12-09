@@ -1,5 +1,3 @@
-# Awesome-Omnimodal-Embeddings
-
 ## Table of Contents
 
 1. [Text Embedding](#1-text-embedding)
@@ -53,7 +51,25 @@
 3. [Vision Embedding](#3-vision-embedding)
 4. [Audio Embedding](#4-audio-embedding)
 5. [Graph Embedding](#5-graph-embedding)
+
+   5.1 [Node Embedding](#51-node-embedding)
+
+   5.2 [Graph Embedding](#52-graph-embedding)
+
+   5.3 [Edge Embedding](#53-edge-embedding)
+
+   5.4 [Knowledge Graph Embedding](#54-knowledge-graph-embedding)
+
 6. [Time Series Embedding](#6-time-series-embedding)
+
+   6.1 [Foundation Models](#61-foundation-models)
+
+   6.2 [Model Architecture & Training Methods](#62-model-architecture--training-methods)
+
+   6.3 [Temporal Knowledge Graph](#63-temporal-knowledge-graph)
+
+   6.4 [Temporal Network](#64-temporal-networks)
+
 7. [Cross-Modal Alignment](#7-cross-modal-alignmnet)
 
 ## 1. Text Embedding
@@ -843,3 +859,365 @@
 - "Learning Cross-Architecture Instruction Embeddings for Binary Code Analysis in Low-Resource Architectures" [2024-08] [NAACL 2024 Findings] [[paper](https://aclanthology.org/2024.findings-naacl.84/)]
 
 - "CLeVeR: Multi-modal Contrastive Learning for Vulnerability Code Representation" [2025-07] [ACL 2025 Findings] [[paper](https://aclanthology.org/2025.findings-acl.414/)]
+
+## 3. Vision Embedding
+
+## 4. Audio Embedding
+
+## 5. Graph Embedding
+
+### 5.1 Node Embedding
+
+- "Deepwalk: Online learning of social representations" [2014-03] [KDD 2014] [[paper](https://arxiv.org/abs/1403.6652)]
+
+- "Line: Large-scale information network embedding" [2015-03] [WWW 2015] [[paper](https://arxiv.org/abs/1503.03578)]
+
+- "node2vec: Scalable feature learning for networks" [2016-07] [KDD 2016] [[paper](https://arxiv.org/abs/1607.00653)]
+
+- "Asymmetric transitivity preserving graph embedding" [2016-08] [KDD 2016] [[paper](https://dl.acm.org/doi/10.1145/2939672.2939751)]
+
+- "Semi-Supervised Classification with Graph Convolutional Networks" [2016-09] [ICLR 2017] [[paper](https://arxiv.org/abs/1609.02907)]
+
+- "Inductive representation learning on large graphs" [2017-06] [NeurIPS 2017] [[paper](https://arxiv.org/abs/1706.02216)]
+
+- "metapath2vec: Scalable representation learning for heterogeneous networks" [2017-08] [KDD 2017] [[paper](https://dl.acm.org/doi/10.1145/3097983.3098036)]
+
+- "Graph attention networks" [2017-10] [ICLR 2018] [[paper](https://arxiv.org/abs/1710.10903)]
+
+- "How powerful are graph neural networks?" [2018-10] [ICLR 2019] [[paper](https://arxiv.org/abs/1810.00826)]
+
+- "Relational graph attention networks" [2019-04] [KDD 2020] [[paper](https://arxiv.org/abs/1904.05811)]
+
+- "Do transformers really perform badly for graph representation?" [2021-06] [NeurIPS 2021] [[paper](https://arxiv.org/abs/2106.05234)]
+
+- "Nodepiece: Compositional and parameter-efficient representations of large knowledge graphs" [2021-06] [ICLR 2022] [[paper](https://arxiv.org/abs/2106.12144)]
+
+- "Sign and Basis Invariant Networks for Spectral Graph Representation Learning" [2022-02] [ICLR 2023] [[paper](https://arxiv.org/abs/2202.13013)]
+
+- "Translating Subgraphs to Nodes Makes Simple GNNs Strong and Efficient for Subgraph Representation Learning" [2022-04] [ICML 2024] [[paper](https://arxiv.org/abs/2204.04510)]
+
+- "Empowering Graph Representation Learning with Test-Time Graph Transformation" [2022-10] [ICLR 2023] [[paper](https://arxiv.org/abs/2210.03561)]
+
+- "DyG2Vec: Efficient Representation Learning for Dynamic Graphs" [2022-10] [TMLR 2024] [[paper](https://arxiv.org/abs/2210.16906)]
+
+- "Learning Fair Graph Representations via Automated Data Augmentations" [2023-02] [ICLR 2023] [[paper](https://openreview.net/forum?id=1_OGWcP1s9w)]
+
+- "Chasing All-Round Graph Representation Robustness: Model, Training, and Optimization" [2023-02] [ICLR 2023] [[paper](https://openreview.net/forum?id=7jk5gWjC18M)]
+
+- "Spacetime Representation Learning" [2023-02] [ICLR 2023] [[paper](https://openreview.net/forum?id=qV_M_rhYajc)]
+
+- "Towards Better Graph Representation Learning with Parameterized Decomposition & Filtering" [2023-05] [ICML 2023] [[paper](https://arxiv.org/abs/2305.06102)]
+
+- "Fisher Information Embedding for Node and Graph Learning" [2023-05] [ICML 2023] [[paper](https://arxiv.org/abs/2305.07580)]
+
+- "Tractable Probabilistic Graph Representation Learning with Graph-Induced Sum-Product Networks" [2023-05] [ICLR 2024] [[paper](https://arxiv.org/abs/2305.10544)]
+
+- "Seq-HGNN: Learning Sequential Node Representation on Heterogeneous Graph" [2023-05] [SIGIR 2023] [[paper](https://arxiv.org/abs/2305.10771)]
+
+- "Node Embedding from Neural Hamiltonian Orbits in Graph Neural Networks" [2023-05] [ICML 2023] [[paper](https://arxiv.org/abs/2305.18965)]
+
+- "Harnessing Explanations: LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning" [2023-05] [ICLR 2024] [[paper](https://arxiv.org/abs/2305.19523)]
+
+- "SGFormer: Simplifying and Empowering Transformers for Large-Graph Representations" [2023-06] [NeurIPS 2023] [[paper](https://arxiv.org/abs/2306.10759)]
+
+- "Directional diffusion models for graph representation learning" [2023-06] [NeurIPS 2023] [[paper](https://arxiv.org/abs/2306.13210)]
+
+- "When Sparsity Meets Contrastive Models: Less Graph Data Can Bring Better Class-Balanced Representations" [2023-06] [ICML 2023] [[paper](https://openreview.net/forum?id=3jV525Hmqr)]
+
+- "Disentangled Multiplex Graph Representation Learning" [2023-06] [ICML 2023] [[paper](https://openreview.net/forum?id=lYZOjMvxws)]
+
+- "VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs" [2023-08] [ICLR 2024] [[paper](https://arxiv.org/abs/2308.02117)]
+
+- "Graph-enhanced Optimizers for Structure-aware Recommendation Embedding Evolution" [2023-09] [NeurIPS 2024] [[paper](https://arxiv.org/abs/2310.03032)]
+
+- "LD2: Scalable Heterophilous Graph Neural Network with Decoupled Embeddings" [2023-09] [NeurIPS 2023] [[paper](https://openreview.net/forum?id=7zkFc9TGKz)]
+
+- "WalkLM: A Uniform Language Model Fine-tuning Framework for Attributed Graph Embedding" [2023-09] [NeurIPS 2023] [[paper](https://openreview.net/forum?id=ZrG8kTbt70)]
+
+- "FiGURe: Simple and Efficient Unsupervised Node Representations with Filter Augmentations" [2023-10] [NeurIPS 2023] [[paper](https://arxiv.org/abs/2310.01892)]
+
+- "GRENADE: Graph-Centric Language Model for Self-Supervised Representation Learning on Text-Attributed Graphs" [2023-10] [EMNLP 2023 Findings] [[paper](https://arxiv.org/abs/2310.15109)]
+
+- "Community Detection Guarantees using Embeddings Learned by Node2Vec" [2023-10] [NeurIPS 2024] [[paper](https://arxiv.org/abs/2310.17712)]
+
+- "Zero-shot Node Classification with Graph Contrastive Embedding Network" [2023-10] [TMLR 2023] [[paper](https://openreview.net/forum?id=8wGXnjRLSy)]
+
+- "Content- and Topology-Aware Representation Learning for Scientific Multi-Literature" [2023-12] [EMNLP 2023] [[paper](https://aclanthology.org/2023.emnlp-main.465/)]
+
+- "Recurrent Distance Filtering for Graph Representation Learning" [2023-12] [ICML 2024] [[paper](https://arxiv.org/abs/2312.01538)]
+
+- "HypeBoy: Generative Self-Supervised Representation Learning on Hypergraphs" [2024-01] [ICLR 2024] [[paper](https://arxiv.org/abs/2404.00638)]
+
+- "UNR-Explainer: Counterfactual Explanations for Unsupervised Node Representation Learning Models" [2024-01] [ICLR 2024] [[paper](https://openreview.net/forum?id=0j9ZDzMPqr)]
+
+- "Node2ket: Efficient High-Dimensional Network Embedding in Quantum Hilbert Space" [2024-01] [ICLR 2024] [[paper](https://openreview.net/forum?id=lROh08eK6n)]
+
+- "Learning Invariant Representations of Graph Neural Networks via Cluster Generalization" [2024-03] [NeurIPS 2023] [[paper](https://arxiv.org/abs/2403.03599)]
+
+- "High-Frequency-aware Hierarchical Contrastive Selective Coding for Representation Learning on Text Attributed Graphs" [2024-04] [WWW 2024] [[paper](https://arxiv.org/abs/2402.16240)]
+
+- "Node Identifiers: Compact, Discrete Representations for Efficient Graph Learning" [2024-05] [ICLR 2025] [[paper](https://arxiv.org/abs/2405.16435)]
+
+- "Enhancing Size Generalization in Graph Neural Networks through Disentangled Representation Learning" [2024-06] [ICML 2024] [[paper](https://arxiv.org/abs/2406.04601)]
+
+- "Learning Divergence Fields for Shift-Robust Graph Representations" [2024-06] [ICML 2024] [[paper](https://arxiv.org/abs/2406.04963)]
+
+- "DUPLEX: Dual GAT for Complex Embedding of Directed Graphs" [2024-06] [ICML 2024] [[paper](https://arxiv.org/abs/2406.05391)]
+
+- "Explaining Node Embeddings" [2024-06] [TMLR 2025] [[paper](https://arxiv.org/abs/2406.07642)]
+
+- "Leveraging Contrastive Learning for Enhanced Node Representations in Tokenized Graph Transformers" [2024-06] [NeurIPS 2024] [[paper](https://arxiv.org/abs/2406.19258)]
+
+- "Non-Euclidean Mixture Model for Social Network Embedding" [2024-09] [NeurIPS 2024] [[paper](https://arxiv.org/abs/2411.04876)]
+
+- "Learning Representations for Hierarchies with Minimal Support" [2024-09] [NeurIPS 2024] [[paper](https://openreview.net/forum?id=HFS800reZK)]
+
+- "Disentangled and Self-Explainable Node Representation Learning" [2024-10] [TMLR 2025] [[paper](https://arxiv.org/abs/2410.21043)]
+
+- "LASE: Learned Adjacency Spectral Embeddings" [2024-12] [TMLR 2025] [[paper](https://arxiv.org/abs/2412.17734)]
+
+- "Generalizable Spectral Embedding with an Application to UMAP" [2025-01] [TMLR 2025] [[paper](https://arxiv.org/abs/2501.11305)]
+
+- "Holographic Node Representations: Pre-training Task-Agnostic Node Embeddings" [2025-01] [ICLR 2025] [[paper](https://openreview.net/forum?id=tGYFikNONB)]
+
+- "Disobeying Directions: Switching Random Walk Filters for Unsupervised Node Embedding Learning on Directed Graphs" [2025-01] [TMLR 2025] [[paper](https://openreview.net/forum?id=yngjRgVA5A)]
+
+- "Genetic-Evolutionary Graph Neural Networks: A Paradigm for Improved Graph Representation Learning" [2025-02] [TMLR 2025] [[paper](https://openreview.net/forum?id=qzYTklXVAB)]
+
+- "Balancing Graph Embedding Smoothness in Self-supervised Learning via Information-Theoretic Decomposition" [2025-04] [WWW 2025] [[paper](https://arxiv.org/abs/2504.12011)]
+
+- "GPEN: Global Position Encoding Network for Enhanced Subgraph Representation Learning" [2025-05] [ICML 2025] [[paper](https://openreview.net/forum?id=7QFmZ7i7sr)]
+
+- "Primphormer: Efficient Graph Transformers with Primal Representations" [2025-05] [ICML 2025] [[paper](https://openreview.net/forum?id=fMAihjfJij)]
+
+- "SDMG: Smoothing Your Diffusion Models for Powerful Graph Representation Learning" [2025-05] [ICML 2025] [[paper](https://openreview.net/forum?id=lNyaQIJ5Z7)]
+
+- "Stable Fair Graph Representation Learning with Lipschitz Constraint" [2025-05] [ICML 2025] [[paper](https://openreview.net/forum?id=oJQWvsStNh)]
+
+- "iN2V: Bringing Transductive Node Embeddings to Inductive Graphs" [2025-06] [ICML 2025] [[paper](https://arxiv.org/abs/2506.05039)]
+
+- "Full-Rank Unsupervised Node Embeddings for Directed Graphs via Message Aggregation" [2025-06] [TMLR 2025] [[paper](https://openreview.net/forum?id=3ECbEZg2If)]
+
+- "Node2binary: Compact Graph Node Embeddings using Binary Vectors" [2025-06] [WWW 2025] [[paper](https://openreview.net/forum?id=s3KIzcRdll)]
+
+### 5.2 Graph Embedding
+
+- "Evaluating Self-Supervised Learning for Molecular Graph Embeddings" [2022-06] [NeurIPS 2023] [[paper](https://arxiv.org/abs/2206.08005)]
+
+- "Tight and fast generalization error bound of graph embedding in metric space" [2023-05] [ICML 2023] [[paper](https://arxiv.org/abs/2305.07971)]
+
+- "Expectation-Complete Graph Representations with Homomorphisms" [2023-06] [ICML 2023] [[paper](https://arxiv.org/abs/2306.05838)]
+
+- "PlanE: Representation Learning over Planar Graphs" [2023-07] [NeurIPS 2023] [[paper](https://arxiv.org/abs/2307.01180)]
+
+- "Rethinking the Power of Graph Canonization in Graph Representation Learning with Stability" [2023-09] [ICLR 2024] [[paper](https://arxiv.org/abs/2309.00738)]
+
+- "Graph-level Representation Learning with Joint-Embedding Predictive Architectures" [2023-09] [TMLR 2025] [[paper](https://arxiv.org/abs/2309.16014)]
+
+- "Lovász Principle for Unsupervised Graph Representation Learning" [2023-09] [NeurIPS 2023] [[paper](https://openreview.net/forum?id=0vdEHDwamk)]
+
+- "Laplacian Canonization: A Minimalist Approach to Sign and Basis Invariant Spectral Embedding" [2023-10] [NeurIPS 2023] [[paper](https://arxiv.org/abs/2310.18716)]
+
+- "Normed Spaces for Graph Embedding" [2023-12] [ICLR 2025] [[paper](https://arxiv.org/abs/2312.01502)]
+
+- "A Simple and Scalable Representation for Graph Generation" [2023-12] [ICLR 2024] [[paper](https://arxiv.org/abs/2312.02230)]
+
+- "Weisfeiler and Leman Go Loopy: A New Hierarchy for Graph Representational Learning" [2024-03] [NeurIPS 2024] [[paper](https://arxiv.org/abs/2403.13749)]
+
+- "HC-GAE: The Hierarchical Cluster-based Graph Auto-Encoder for Graph Representation Learning" [2024-05] [NeurIPS 2024] [[paper](https://arxiv.org/abs/2405.14742)]
+
+- "Learning Graph Representation via Graph Entropy Maximization" [2024-07] [ICML 2024] [[paper](https://proceedings.mlr.press/v235/sun24i.html)]
+
+- "Neural Spacetimes for DAG Representation Learning" [2024-08] [ICLR 2025] [[paper](https://arxiv.org/abs/2408.13885)]
+
+- "LLMs as Zero-shot Graph Learners: Alignment of GNN Representations with LLM Token Embeddings" [2024-08] [NeurIPS 2024] [[paper](https://arxiv.org/abs/2408.14512)]
+
+- "Exploitation of a Latent Mechanism in Graph Contrastive Learning: Representation Scattering" [2024-09] [NeurIPS 2024] [[paper](https://openreview.net/forum?id=R8SolCx62K)]
+
+- "Exploring Consistency in Graph Representations: from Graph Kernels to Graph Neural Networks" [2024-10] [NeurIPS 2024] [[paper](https://arxiv.org/abs/2410.23748)]
+
+- "ICLR: In-Context Learning of Representations" [2025-01] [ICLR 2025] [[paper](https://arxiv.org/abs/2501.00070)]
+
+- "How Low Can You Go? Searching for the Intrinsic Dimensionality of Complex Networks using Metric Node Embeddings" [2025-01] [ICLR 2025] [[paper](https://arxiv.org/abs/2503.01723)]
+
+- "Charting the Design Space of Neural Graph Representations for Subgraph Matching" [2025-01] [ICLR 2025] [[paper](https://openreview.net/forum?id=5pd78GmXC6)]
+
+- "A Hubness Perspective on Representation Learning for Graph-Based Multi-View Clustering" [2025-06] [CVPR 2025] [[paper](https://cvpr.thecvf.com/virtual/2025/poster/32724)]
+
+- "Heterogeneous Graph Embedding Made More Practical" [2025-07] [SIGIR 2025] [[paper](https://dl.acm.org/doi/10.1145/3726302.3729993)]
+
+### 5.3 Edge Embedding
+
+- "Edgeformers: Graph-Empowered Transformers for Representation Learning on Textual-Edge Networks" [2023-02] [ICLR 2023] [[paper](https://arxiv.org/abs/2302.11050)]
+
+- "Towards characterizing the value of edge embeddings in Graph Neural Networks" [2024-10] [ICML 2025] [[paper](https://arxiv.org/abs/2410.09867)]
+
+### 5.4 Knowledge Graph Embedding
+
+- "Translating embeddings for modeling multi-relational data" [2013-12] [NeurIPS 2013] [[paper](https://dl.acm.org/doi/10.5555/2999792.2999923)]
+
+- "Rotate: Knowledge graph embedding by relational rotation in complex space" [2019-02] [ICLR 2019] [[paper](https://arxiv.org/abs/1902.10197)]
+
+- "Knowledge Hypergraph Embedding Meets Relational Algebra" [2021-02] [ICML 2023] [[paper](https://arxiv.org/abs/2102.09557)]
+
+- "ExpressivE: A Spatio-Functional Embedding For Knowledge Graph Completion" [2022-06] [ICLR 2023] [[paper](https://arxiv.org/abs/2206.04192)]
+
+- "RulE: Knowledge Graph Reasoning with Rule Embedding" [2022-10] [ACL 2024 Findings] [[paper](https://arxiv.org/abs/2210.14905)]
+
+- "Wasserstein-Fisher-Rao Embedding: Logical Query Embeddings with Local Comparison and Global Transport" [2023-05] [ACL 2023 Findings] [[paper](https://arxiv.org/abs/2305.04034)]
+
+- "Polar Ducks and Where to Find Them: Enhancing Entity Linking with Duck Typing and Polar Box Embeddings" [2023-05] [EMNLP 2023] [[paper](https://arxiv.org/abs/2305.12027)]
+
+- "How to Turn Your Knowledge Graph Embeddings into Generative Models" [2023-05] [NeurIPS 2023] [[paper](https://arxiv.org/abs/2305.15944)]
+
+- "InGram: Inductive Knowledge Graph Embedding via Relation Graphs" [2023-05] [ICML 2023] [[paper](https://arxiv.org/abs/2305.19987)]
+
+- "Shrinking Embeddings for Hyper-Relational Knowledge Graphs" [2023-06] [ACL 2023] [[paper](https://arxiv.org/abs/2306.02199)]
+
+- "What Makes Entities Similar? A Similarity Flooding Perspective for Multi-sourced Knowledge Graph Embeddings" [2023-06] [ICML 2023] [[paper](https://arxiv.org/abs/2306.02622)]
+
+- "Knowledge Graph Embeddings using Neural Ito Process: From Multiple Walks to Stochastic Trajectories" [2023-07] [ACL 2023 Findings] [[paper](https://aclanthology.org/2023.findings-acl.448/)]
+
+- "SConE: Simplified Cone Embeddings with Symbolic Operators for Complex Logical Queries" [2023-07] [ACL 2023 Findings] [[paper](https://aclanthology.org/2023.findings-acl.755/)]
+
+- "Contrastive Learning with Generated Representations for Inductive Knowledge Graph Embedding" [2023-07] [ACL 2023 Findings] [[paper](https://aclanthology.org/2023.findings-acl.900/)]
+
+- "Concept2Box: Joint Geometric Embeddings for Learning Two-View Knowledge Graphs" [2023-07] [ACL 2023 Findings] [[paper](https://arxiv.org/abs/2307.01933)]
+
+- "Weighted Knowledge Graph Embedding" [2023-07] [SIGIR 2023] [[paper](https://dl.acm.org/doi/10.1145/3539618.3591784)]
+
+- "Relation-aware Ensemble Learning for Knowledge Graph Embedding" [2023-10] [EMNLP 2023] [[paper](https://arxiv.org/abs/2310.08917)]
+
+- "Solving Hard Analogy Questions with Relation Embedding Chains" [2023-10] [EMNLP 2023] [[paper](https://arxiv.org/abs/2310.12379)]
+
+- "Are Embedded Potatoes Still Vegetables? On the Limitations of WordNet Embeddings for Lexical Semantics" [2023-12] [EMNLP 2023] [[paper](https://aclanthology.org/2023.emnlp-main.542/)]
+
+- "Block-Diagonal Orthogonal Relation and Matrix Entity for Knowledge Graph Embedding" [2024-01] [EMNLP 2024 Findings] [[paper](https://arxiv.org/abs/2401.05967)]
+
+- "MQuinE: a Cure for “Z-paradox” in Knowledge Graph Embedding" [2024-02] [EMNLP 2024] [[paper](https://arxiv.org/abs/2402.03583)]
+
+- "Dynamic Graph Representation with Knowledge-aware Attention for Histopathology Whole Slide Image Analysis" [2024-03] [CVPR 2024] [[paper](https://arxiv.org/abs/2403.07719)]
+
+- "PAC-Bayesian Generalization Bounds for Knowledge Graph Representation Learning" [2024-05] [ICML 2024] [[paper](https://arxiv.org/abs/2405.06418)]
+
+- "Generalizing Knowledge Graph Embedding with Universal Orthogonal Parameterization" [2024-05] [ICML 2024] [[paper](https://arxiv.org/abs/2405.08540)]
+
+- "Multiple Heads are Better than One: Mixture of Modality Knowledge Experts for Entity Representation Learning" [2024-05] [ICLR 2025] [[paper](https://arxiv.org/abs/2405.16869)]
+
+- "Bridging the Space Gap: Unifying Geometry Knowledge Graph Embedding with Optimal Transport" [2024-05] [WWW 2024] [[paper](https://dl.acm.org/doi/10.1145/3589334.3645565)]
+
+- "SpeedE: Euclidean Geometric Knowledge Graph Embedding Strikes Back" [2024-06] [NAACL 2024 Findings] [[paper](https://aclanthology.org/2024.findings-naacl.6/)]
+
+- "Improving Multi-hop Logical Reasoning in Knowledge Graphs with Context-Aware Query Representation Learning" [2024-06] [ACL 2024 Findings] [[paper](https://arxiv.org/abs/2406.07034)]
+
+- "Croppable Knowledge Graph Embedding" [2024-07] [ACL 2025] [[paper](https://arxiv.org/abs/2407.02779)]
+
+- "Learning Low-dimensional Multi-domain Knowledge Graph Embedding via Dual Archimedean Spirals" [2024-08] [ACL 2024 Findings] [[paper](https://aclanthology.org/2024.findings-acl.118/)]
+
+- "HyperCL: A Contrastive Learning Framework for Hyper-Relational Knowledge Graph Embedding with Hierarchical Ontology" [2024-08] [ACL 2024 Findings] [[paper](https://aclanthology.org/2024.findings-acl.171/)]
+
+- "Enhancing Hyperbolic Knowledge Graph Embeddings via Lorentz Transformations" [2024-08] [ACL 2024 Findings] [[paper](https://aclanthology.org/2024.findings-acl.272/)]
+
+- "Predictive Multiplicity of Knowledge Graph Embeddings in Link Prediction" [2024-08] [EMNLP 2024 Findings] [[paper](https://arxiv.org/abs/2408.08226)]
+
+- "Conformalized Answer Set Prediction for Knowledge Graph Embedding" [2024-08] [NAACL 2025] [[paper](https://arxiv.org/abs/2408.08248)]
+
+- "Clustering then Propagation: Select Better Anchors for Knowledge Graph Embedding" [2024-09] [NeurIPS 2024] [[paper](https://openreview.net/forum?id=BpJ6OTfWw3)]
+
+- "DECRL: A Deep Evolutionary Clustering Jointed Temporal Knowledge Graph Representation Learning Approach" [2024-10] [NeurIPS 2024] [[paper](https://arxiv.org/abs/2410.22631)]
+
+- "Joint Pre-Encoding Representation and Structure Embedding for Efficient and Low-Resource Knowledge Graph Completion" [2024-11] [EMNLP 2024] [[paper](https://aclanthology.org/2024.emnlp-main.851/)]
+
+- "Optimal Embedding Guided Negative Sample Generation for Knowledge Graph Link Prediction" [2025-04] [TMLR 2025] [[paper](https://arxiv.org/abs/2504.03327)]
+
+- "A Mutual Information Perspective on Knowledge Graph Embedding" [2025-05] [ACL 2025] [[paper](https://aclanthology.org/2025.acl-long.1077/)]
+
+- "Predicate-Conditional Conformalized Answer Sets for Knowledge Graph Embeddings" [2025-05] [ACL 2025 Findings] [[paper](https://arxiv.org/abs/2505.16877)]
+
+- "RSCF: Relation-Semantics Consistent Filter for Entity Embedding of Knowledge Graph" [2025-05] [ACL 2025] [[paper](https://arxiv.org/abs/2505.20813)]
+
+- "Structure Is All You Need: Structural Representation Learning on Hyper-Relational Knowledge Graphs" [2025-05] [ICML 2025] [[paper](https://openreview.net/forum?id=2tH2vexW1Z)]
+
+- "From Knowledge Forgetting to Accumulation: Evolutionary Relation Path Passing for Lifelong Knowledge Graph Embedding" [2025-07] [SIGIR 2025] [[paper](https://dl.acm.org/doi/10.1145/3726302.3729982)]
+
+- "Rethinking Continual Knowledge Graph Embedding: Benchmarks and Analysis" [2025-07] [SIGIR 2025] [[paper](https://dl.acm.org/doi/10.1145/3726302.3730073)]
+
+## 6. Time Series Embedding
+
+### 6.1 Foundation Models
+
+- "Towards a General Time Series Forecasting Model with Unified Representation and Adaptive Transfer" [2024-05] [ICML 2025] [[paper](https://arxiv.org/abs/2405.17478)]
+
+- "On the Regularization of Learnable Embeddings for Time Series Forecasting" [2025-02] [TMLR 2025] [[paper](https://arxiv.org/abs/2410.14630)]
+
+- "Exploring Representations and Interventions in Time Series Foundation Models" [2025-06] [ICML 2025] [[paper](https://arxiv.org/abs/2409.12915)]
+
+### 6.2 Model Architecture & Training Methods
+
+- "SOM-CPC: Unsupervised Contrastive Learning with Self-Organizing Maps for Structured Representations of High-Rate Time Series" [2022-05] [ICML 2023] [[paper](https://arxiv.org/abs/2205.15875)]
+
+- "Out-of-distribution Representation Learning for Time Series Classification" [2022-09] [ICLR 2023] [[paper](https://arxiv.org/abs/2209.07027)]
+
+- "TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series" [2023-08] [ICLR 2024] [[paper](https://arxiv.org/abs/2308.08241)]
+
+- "T-Rep: Representation Learning for Time Series using Time-Embeddings" [2023-10] [ICLR 2024] [[paper](https://arxiv.org/abs/2310.04486)]
+
+- "NuTime: Numerically Multi-Scaled Embedding for Large-Scale Time-Series Pretraining" [2023-10] [TMLR 2024] [[paper](https://arxiv.org/abs/2310.07402)]
+
+- "Time Series Kernels based on Nonlinear Vector AutoRegressive Delay Embeddings" [2023-12] [NeurIPS 2023] [[paper](https://openreview.net/pdf?id=UBUWFEwn7p)]
+
+- "CaRiNG: Learning Temporal Causal Representation under Non-Invertible Generation Process" [2024-01] [ICML 2024] [[paper](https://arxiv.org/abs/2401.14535)]
+
+- "TOTEM: TOkenized Time Series EMbeddings for General Time Series Analysis" [2024-02] [TMLR 2024] [[paper](https://arxiv.org/abs/2402.16412)]
+
+- "Multi-Patch Prediction: Adapting Language Models for Time Series Representation Learning" [2024-03] [ICML 2024] [[paper](https://arxiv.org/abs/2402.04852)]
+
+- "TSLANet: Rethinking Transformers for Time Series Representation Learning" [2024-04] [ICML 2024] [[paper](https://arxiv.org/abs/2404.08472)]
+
+- "Segment, Shuffle, and Stitch: A Simple Layer for Improving Time-Series Representations" [2024-05] [NeurIPS 2024] [[paper](https://arxiv.org/abs/2405.20082)]
+
+- "GAFormer: Enhancing Timeseries Transformers Through Group-Aware Embeddings" [2024-05] [ICLR 2024] [[paper](https://openreview.net/pdf?id=c56TWtYp0W)]
+
+- "Disentangling Time Series Representations via Contrastive Independence-of-Support on l-Variational Inference" [2024-05] [ICLR 2024] [[paper](https://openreview.net/pdf?id=iI7hZSczxE)]
+
+- "Nonlinear Sequence Embedding by Monotone Variational Inequality" [2024-06] [ICLR 2025] [[paper](https://arxiv.org/abs/2406.06894)]
+
+- "MF-CLR: Multi-Frequency Contrastive Learning Representation for Time Series" [2024-07] [ICML 2024] [[paper](https://openreview.net/pdf?id=ecO7WOIlMD)]
+
+- "SigDiffusions: Score-Based Diffusion Models for Time Series via Log-Signature Embeddings" [2025-02] [ICLR 2025] [[paper](https://arxiv.org/abs/2406.10354)]
+
+- "LETS-C: Leveraging Text Embedding for Time Series Classification" [2025-05] [ACL 2025] [[paper](https://arxiv.org/abs/2407.06533)]
+
+- "TimeDART: A Diffusion Autoregressive Transformer for Self-Supervised Time Series Representation" [2025-06] [ICML 2025] [[paper](https://arxiv.org/abs/2410.05711)]
+
+- "MERIT: Multi-Agent Collaboration for Unsupervised Time Series Representation Learning" [2025-07] [ACL 2025 Findings] [[paper](https://aclanthology.org/2025.findings-acl.1231.pdf)]
+
+- "Time Series Representations with Hard-Coded Invariances" [2025-07] [ICML 2025] [[paper](https://openreview.net/pdf?id=SaKPKyjDp6)]
+
+- "Learning Time-Series Representations by Hierarchical Uniformity-Tolerance Latent Balancing" [2025-10] [TMLR 2025] [[paper](https://www.arxiv.org/abs/2510.01658)]
+
+### 6.3 Temporal Knowledge Graph
+
+- "ECOLA: Enhancing Temporal Knowledge Embeddings with Contextualized Language Representations" [2022-03] [ACL 2023 Findings] [[paper](https://arxiv.org/abs/2203.09590)]
+
+- "TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph" [2022-05] [NeurIPS 2023] [[paper](https://arxiv.org/abs/2205.14307)]
+
+- "TeAST: Temporal Knowledge Graph Embedding via Archimedean Spiral Timeline" [2023-07] [ACL 2023] [[paper](https://aclanthology.org/2023.acl-long.862.pdf)]
+
+- "Learning Joint Structural and Temporal Contextualized Knowledge Embeddings for Temporal Knowledge Graph Completion" [2023-07] [ACL 2023 Findings] [[paper](https://aclanthology.org/2023.findings-acl.28.pdf)]
+
+- "Noether Embedding: Efficient Learning of Temporal Regularities" [2023-12] [NeurIPS 2023] [[paper](https://openreview.net/pdf?id=27CRbwewyb)]
+
+- "Mitigating Heterogeneity among Factor Tensors via Lie Group Manifolds for Tensor Decomposition Based Temporal Knowledge Graph Embedding" [2025-02] [NAACL 2025] [[paper](https://arxiv.org/abs/2404.09155)]
+
+### 6.4 Temporal Networks
+
+- "Direct Embedding of Temporal Network Edges via Time-Decayed Line Graphs" [2022-09] [ICLR 2023] [[paper](https://arxiv.org/abs/2210.00032)]
+
+- "HiT-MDP: Learning the SMDP option framework on MDPs with Hidden Temporal Embeddings" [2023-05] [ICLR 2023] [[paper](https://openreview.net/pdf?id=VuuDXDgujAc)]
+
+---
+
+## 7. Cross-Modal Alignmnet
+
+- "Multilingual Pixel Representations for Translation and Effective Cross-lingual Transfer" [2023-05] [EMNLP 2023] [[paper](https://arxiv.org/abs/2305.14280)]
